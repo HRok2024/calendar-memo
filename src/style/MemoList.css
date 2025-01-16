@@ -1,0 +1,57 @@
+/* MemoList.css */
+.detail-wrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 17px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(146, 119, 255, 0.5),
+    rgba(116, 138, 241, 0.5)
+  );
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  cursor: pointer;
+}
+
+.memoContent {
+  width: 90%;
+  margin: 10px 0;
+  background-color: #d1c5ff;
+}
+
+.checkBtn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.edit-wrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.editmenu {
+  display: flex;
+  margin: auto;
+}
+
+div {
+  font-size: 16px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  font-size: 14px;
+  width: 50vw;
+}

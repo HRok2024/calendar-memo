@@ -1,0 +1,31 @@
+/* ProgressMemo.css */
+.progress-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+  padding: 30px;
+  margin: 0 10px;
+  background: linear-gradient(45deg, #bfaeff, #a3b8f9);
+  border-radius: 15px;
+}
+
+.progress-bar-container {
+  width: 100%;
+}
+
+.progress-bar {
+  height: 25px;
+  background: linear-gradient(45deg, #9277ff, #748af1);
+  border: 1px solid #f2f2f2;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: width 0.6s ease-in-out;
+}
+
+h4 {
+  font-size: 18px;
+}
